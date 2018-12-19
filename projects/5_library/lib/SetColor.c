@@ -101,7 +101,7 @@ void SetColor(int R, int G, int B)
 /**
  *  @brief this function changes the color's number
  *  @param [in] led_number this number from 0 to 2 shows which color should be added to a lamp
- *  @param [out] led_number this number from 0 to 2 shows which color should be added to a lamp  
+ *  @returns the number of a new LED   
  * 
  * This function lights a LED with needed number on a board and sets the variable led_number to a corresponding value 
  */

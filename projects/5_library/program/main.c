@@ -18,7 +18,7 @@ void init_button2(void){
   B.GPIO_Mode  = GPIO_Mode_IN;
   B.GPIO_OType = GPIO_OType_PP;
   B.GPIO_Speed = GPIO_Speed_2MHz;
-  B.GPIO_PuPd  = GPIO_PuPd_NOPULL;
+  B.GPIO_PuPd  = GPIO_PuPd_UP;
   GPIO_Init(GPIOE, &B);  
 };
 
@@ -91,7 +91,7 @@ void EXTI1_IRQHandler(void)
   { 
       AddThisColor(led_number);
       EXTI_ClearITPendingBit(EXTI_Line1);
-      for(int i =0;i<5000000;i++);
+    // for(int i =0;i<5000000;i++);
   }
 };
 

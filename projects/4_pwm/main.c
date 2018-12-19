@@ -130,7 +130,7 @@ void init_button2(void){
   B.GPIO_Mode  = GPIO_Mode_IN;
   B.GPIO_OType = GPIO_OType_PP;
   B.GPIO_Speed = GPIO_Speed_2MHz;
-  B.GPIO_PuPd  = GPIO_PuPd_NOPULL;
+  B.GPIO_PuPd  = GPIO_PuPd_UP;
   GPIO_Init(GPIOE, &B);  
 };
 
