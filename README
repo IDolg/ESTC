@@ -1,0 +1,11 @@
+ Labs for ESTC
+ 
+ 1) LEDs blink in a circle, when you press the button, the direction changes. Everything is done without interrupts and timers
+ 
+ 2) Same, but LEDs blink by a timer (without interrupts)
+ 
+ 3) Same, but timers and buttons work with interrupts
+ 
+ 4) PWM(COMMON CATHODE!). User button chooses color and E1 button adds it to an external lamp.
+ 
+ 5) PWM(COMMON CATHODE!). Same as 4, but functionality implemented through the library
