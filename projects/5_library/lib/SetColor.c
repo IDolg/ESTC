@@ -84,7 +84,10 @@ void InitPWM(void){
 
 
 /**
- *  @brief this function sets a (x,y,z) color
+ *  @brief this function sets a (r,g,b) color
+ *  @param [in] R sets Red brightness from0 to 1000
+ *  @param [in] G sets Green brightness from0 to 1000
+ *  @param [in] B sets Blue brightness from0 to 1000
  */
 
 void SetColor(int R, int G, int B)
@@ -97,6 +100,10 @@ void SetColor(int R, int G, int B)
 
 /**
  *  @brief this function changes the color's number
+ *  @param [in] led_number this number from 0 to 2 shows which color should be added to a lamp
+ *  @param [out] led_number this number from 0 to 2 shows which color should be added to a lamp  
+ * 
+ * This function lights a LED with needed number on a board and sets the variable led_number to a corresponding value 
  */
 
 uint8_t ChooseColor(uint8_t led_number){
@@ -113,6 +120,9 @@ uint8_t ChooseColor(uint8_t led_number){
 
 /**
  *  @brief this function adds alittle of color №n to the lamp
+ *  @param [in] led_number this number from 0 to 2 shows which color should be added to a lamp
+ * 
+ * This function adds a little of color №N to the lamp. N can be from 0 to 2 which means Red, Green or Blue. 
  */
 
 void AddThisColor(uint8_t led_number){
