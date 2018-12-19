@@ -9,4 +9,4 @@
  4) PWM(COMMON CATHODE!). User button chooses color and E1 button adds it to an external lamp.
  
  5) PWM(COMMON CATHODE!). Same as 4, but functionality implemented through the library
-   doxygen/html folder contain documentation for the library
+   doxygen/html folder contains documentation for the library
